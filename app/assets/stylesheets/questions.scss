@@ -1,0 +1,41 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$answer-border: 6px solid lightgrey;
+$answer-padding: 10px;
+
+// ASK PAGE CSS.
+.ask_question{
+  width: 100%;
+  display: flex;
+}
+
+.input_question{
+  flex-basis: 80%;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.submit_btn{
+  background-color: #337AB7;
+  color: white;
+  border: none;
+  flex-basis: 10%;
+  margin-left: 10px;
+  border-radius:5px;
+}
+
+// ANSWER CSS.
+.question{
+    border-left: $answer-border;
+    padding: $answer-padding;
+    margin-bottom: 16px;
+}
+
+.answer{
+    border-left: $answer-border;
+    padding: $answer-padding;
+    background-color: #FFFFE1;
+    margin-bottom: 16px;
+}
